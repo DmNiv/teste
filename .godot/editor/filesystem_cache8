@@ -1,6 +1,7 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1696447240
+::res://::1696519884
 icon.svg::CompressedTexture2D::9102501998867167636::1696439691::1696439698::1::::<><>::
+Label.gd::GDScript::-1::1696449335::0::1::::<>Label<>::
 LineEdit.gd::GDScript::-1::1696440913::0::1::::<>LineEdit<>::
 Node2D.gd::GDScript::-1::1696440569::0::1::::<>Node2D<>::
-node_2d.tscn::PackedScene::451958131439507872::1696440988::0::1::::<><>::res://LineEdit.gd
+node_2d.tscn::PackedScene::451958131439507872::1696449718::0::1::::<><>::res://LineEdit.gd<>res://Label.gd

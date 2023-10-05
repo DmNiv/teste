@@ -4,26 +4,25 @@
 [ext_resource type="Script" path="res://Label.gd" id="2_dyn3q"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_mdfnn"]
-font_size = 109
+font_size = 90
 
 [node name="Node2D" type="Node2D"]
 
 [node name="LineEdit" type="LineEdit" parent="."]
 offset_left = 512.0
-offset_top = 280.0
+offset_top = 456.0
 offset_right = 636.0
-offset_bottom = 320.0
+offset_bottom = 496.0
 alignment = 1
 expand_to_text_length = true
 script = ExtResource("1_wbxe1")
 
 [node name="Label" type="Label" parent="."]
 offset_right = 1152.0
-offset_bottom = 255.0
-text = "Digita alguma coisa aí"
+offset_bottom = 384.0
+text = "Digite seu nome:"
 label_settings = SubResource("LabelSettings_mdfnn")
-visible_characters = 0
-visible_ratio = 0.0
+autowrap_mode = 3
 script = ExtResource("2_dyn3q")
 
 [node name="Timer" type="Timer" parent="Label"]
